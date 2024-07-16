@@ -22,3 +22,16 @@ Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Tem
 ### Tailwind CSS
 
 For styling with Tailwind CSS, just add the utility classes to the particular element. Make sure to use the `className` attribute. Check out the [Tailwind CSS Docs](https://tailwindcss.com/docs/installation) for more information.
+
+### Setting Up and Running in VS Code --->
+### Install Dependencies:->
+  Open the integrated terminal in VS Code (View > Terminal or Ctrl+ `) and run npm install` to install the necessary dependencies for 
+  your React project.
+  
+### Start the Development Server:->
+ After the dependencies are installed, run npm start in the terminal. This will start the React development server.
+ Once the server starts, you should see a message indicating the local address (usually localhost:3000) where your React app is running.
+ Open in Browser:
+
+ Open a web browser and navigate to localhost:3000 (or whichever address is indicated in the terminal) to view your React application 
+ running locally.
