@@ -43,8 +43,8 @@ const TaskInput = () => {
             console.log("array", array);
             localStorage.setItem('task', JSON.stringify(array));
             e.target.reset();
-            dispatch(refreshSliceActive());
             setData('');
+            dispatch(refreshSliceActive());
         
     }
     const changeHandler = (e) => {
